@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Lumanosimo&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("wallhaven-47x2o3.jpg");
+    background-size: cover;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: 7em;
+    font-family: 'Chela One', cursive;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00FF00, 0 0 70px #00FF00, 0 0 80px #00FF00, 0 0 100px #00FF00, 0 0 150px #00FF00;
+    animation: glow 2s linear infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0000a0, 0 0 70px #0000a0, 0 0 80px #0000a0, 0 0 100px #0000a0, 0 0 150px #0000a0;
+    }
+    50% {
+      text-shadow: none;
+    }
+  }
+
+/* .container h1 .the_icon {
+    font-size: 4em;
+} */
+
+.content button {
+    padding: 15px 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    background-color: black;
+    font-family: 'Lumanosimo', cursive;
+    box-shadow: 2px 4px 6px lime;
+    transition: 0.6s;
+}
+
+.content button:hover {
+    transform: scale(1.1);
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* .content {
+    display: flex;
+    justify-content: center;
+} */
